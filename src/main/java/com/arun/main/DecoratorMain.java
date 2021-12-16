@@ -13,20 +13,15 @@ public class DecoratorMain {
     public static void main(String[] args) {
         Coffee espresso = new Espresso();
         printCoffee(espresso);
-
         espresso = new Milk(espresso);
         printCoffee(espresso);
-
         espresso = new Sugar(espresso);
         printCoffee(espresso);
-
         Coffee darkRoast = new DarkRoast();
         printCoffee(darkRoast);
-
         darkRoast = new Mocha(darkRoast);
         darkRoast = new Mocha(darkRoast);
         printCoffee(darkRoast);
-
     }
 
     public static void printCoffee(Coffee coffee) {

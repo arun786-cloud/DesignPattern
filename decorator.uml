@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.arun.decorator</OriginalElement>
+  <nodes>
+    <node x="683.0" y="0.0">com.arun.decorator.Coffee</node>
+    <node x="873.0" y="139.0">com.arun.decorator.HouseBlend</node>
+    <node x="698.0" y="139.0">com.arun.decorator.Espresso</node>
+    <node x="205.0" y="251.0">com.arun.decorator.Sugar</node>
+    <node x="615.0" y="251.0">com.arun.decorator.Milk</node>
+    <node x="297.0" y="139.0">com.arun.decorator.CoffeeDecorator</node>
+    <node x="410.0" y="251.0">com.arun.decorator.Soya</node>
+    <node x="0.0" y="251.0">com.arun.decorator.Mocha</node>
+    <node x="1060.0" y="139.0">com.arun.decorator.Decaf</node>
+    <node x="523.0" y="139.0">com.arun.decorator.DarkRoast</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.arun.decorator.HouseBlend" target="com.arun.decorator.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.0" />
+      <point x="956.5" y="114.0" />
+      <point x="775.5" y="114.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="com.arun.decorator.Soya" target="com.arun.decorator.CoffeeDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="502.5" y="226.0" />
+      <point x="400.0" y="226.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.arun.decorator.Decaf" target="com.arun.decorator.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.0" />
+      <point x="1137.5" y="114.0" />
+      <point x="775.5" y="114.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="com.arun.decorator.DarkRoast" target="com.arun.decorator.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.0" />
+      <point x="600.5" y="114.0" />
+      <point x="775.5" y="114.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="com.arun.decorator.Sugar" target="com.arun.decorator.CoffeeDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="297.5" y="226.0" />
+      <point x="400.0" y="226.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.arun.decorator.Espresso" target="com.arun.decorator.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="com.arun.decorator.Milk" target="com.arun.decorator.CoffeeDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="707.5" y="226.0" />
+      <point x="400.0" y="226.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.arun.decorator.Mocha" target="com.arun.decorator.CoffeeDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="92.5" y="226.0" />
+      <point x="400.0" y="226.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.arun.decorator.CoffeeDecorator" target="com.arun.decorator.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.0" />
+      <point x="400.0" y="114.0" />
+      <point x="775.5" y="114.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="607.5" y="183.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
